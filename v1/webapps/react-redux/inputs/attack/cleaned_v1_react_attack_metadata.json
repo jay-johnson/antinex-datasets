@@ -1,0 +1,94 @@
+{
+    "created": "2018-02-15 19:08:48",
+    "feature_to_predict": null,
+    "features_to_process": [
+        "arp_id",
+        "dns_id",
+        "eth_id",
+        "eth_type",
+        "icmp_id",
+        "idx",
+        "ip_id",
+        "ip_ihl",
+        "ip_len",
+        "ip_tos",
+        "ip_version",
+        "ipvsix_id",
+        "label_name",
+        "label_value",
+        "pad_id",
+        "tcp_dport",
+        "tcp_fields_options.MSS",
+        "tcp_fields_options.NOP",
+        "tcp_fields_options.SAckOK",
+        "tcp_fields_options.Timestamp",
+        "tcp_fields_options.WScale",
+        "tcp_id",
+        "tcp_seq",
+        "tcp_sport",
+        "udp_id"
+    ],
+    "headers": [
+        "arp_id",
+        "dns_id",
+        "eth_id",
+        "eth_type",
+        "icmp_id",
+        "idx",
+        "ip_id",
+        "ip_ihl",
+        "ip_len",
+        "ip_tos",
+        "ip_version",
+        "ipvsix_id",
+        "label_name",
+        "label_value",
+        "pad_id",
+        "tcp_dport",
+        "tcp_fields_options.MSS",
+        "tcp_fields_options.NOP",
+        "tcp_fields_options.SAckOK",
+        "tcp_fields_options.Timestamp",
+        "tcp_fields_options.WScale",
+        "tcp_id",
+        "tcp_seq",
+        "tcp_sport",
+        "udp_id"
+    ],
+    "ignore_features": [],
+    "label_rules": {
+        "label_values": [
+            1
+        ],
+        "labels": [
+            "attack"
+        ],
+        "set_if_above": 999
+    },
+    "output_type": "clean",
+    "pipeline_files": [
+        "/opt/datasets/react-redux/netdata-2018-01-29-13-36-35.csv"
+    ],
+    "post_proc_rules": {
+        "drop_columns": [
+            "src_file",
+            "raw_id",
+            "raw_load",
+            "raw_hex_load",
+            "raw_hex_field_load",
+            "pad_load",
+            "eth_dst",
+            "eth_src",
+            "ip_dst",
+            "ipv6_dst",
+            "ip_src",
+            "ipv6_src",
+            "arp_pdst",
+            "arp_psrc",
+            "arp_hwsrc",
+            "arp_hwdst"
+        ],
+        "keep_nans": true,
+        "mark_empty": -1.0
+    }
+}
