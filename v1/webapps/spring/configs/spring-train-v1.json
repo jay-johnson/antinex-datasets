@@ -1,15 +1,15 @@
 {
-    "csv_file": "/opt/antinex-datasets/v1/webapps/spring/training-ready/v1_spring_cleaned.csv",
-    "meta_file": "/opt/antinex-datasets/v1/webapps/spring/training-ready/cleaned_v1_spring_metadata.json",
-    "title": "Spring - Keras DNN - Dataset v1",
-    "desc": "Training Spring DNN using Attack and Non-attack data captured using the network-pipeline",
-    "ds_name": "cleaned",
-    "algo_name": "dnn",
-    "ml_type": "keras",
-    "predict_feature": "label_value",
-    "training_data": "{}",
-    "pre_proc": "{}",
-    "post_proc": "{}",
-    "meta_data": "{}",
-    "version": 1
+  "csv_file": "/opt/antinex/antinex-datasets/v1/webapps/spring/training-ready/v1_spring_cleaned.csv",
+  "meta_file": "/opt/antinex/antinex-datasets/v1/webapps/spring/training-ready/cleaned_v1_spring_metadata.json",
+  "title": "Spring - Keras DNN - Dataset v1",
+  "desc": "Training Spring DNN using Attack and Non-attack data captured using the network-pipeline",
+  "ds_name": "cleaned",
+  "algo_name": "dnn",
+  "ml_type": "keras",
+  "predict_feature": "label_value",
+  "training_data": "{}",
+  "pre_proc": "{}",
+  "post_proc": "{}",
+  "meta_data": "{}",
+  "version": 1
 }
